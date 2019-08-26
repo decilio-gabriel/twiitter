@@ -94,7 +94,8 @@ ul li a img {
 
 .avatar {
 	border-radius: 40px;
-
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 /*.search {
@@ -128,6 +129,7 @@ header .side .search {
     font-size: 12px;
     font-weight: bold;
     background: url('assets/search.svg') no-repeat 190px center;
+
 }
 
 header .logo {
@@ -135,9 +137,34 @@ header .logo {
 }
 
 
-header .side .img {
-	justify-content: center;
+header .side  {
+	display: flex;
+	align-items: center;
+
 }
+
+/* BANNER*/
+
+.banner {
+	background: #6cd7fa;
+	height: 360px;
+	font-size: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
