@@ -1,0 +1,144 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background: #E6ECF0;
+ font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0px auto;
+
+}
+
+input {
+	outline: 0;
+}
+
+button {
+	outline: 0;
+}
+
+/*HOME*/ 
+
+nav{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+a:hover{
+	opacity: 1;
+}
+header {
+	background-color: white;
+	width: 100%;
+	margin-top:0;
+	left: 0;
+	padding: -1px 10px;
+	font-size: 100%;
+	
+
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul  {
+	display: flex;
+	margin:10px;
+}
+
+
+ul li {
+	display: flex;
+	padding: 10px;
+	text-decoration: none;
+
+	
+}
+
+.button {
+	border-radius: 14px;
+	padding: 8px 20px;
+	font-size: 100%;
+	cursor: pointer;
+	background-color: #6cd7fa;
+	color: white;
+	border:none;
+
+}
+
+ul li a {
+	display: flex;
+	color: gray;
+	font-size: 15px;
+	align-items: center;
+}
+
+ul li a img {
+	margin-right: 5px;
+	width: 15;
+	height: 15;
+}
+
+.avatar {
+	border-radius: 40px;
+
+}
+
+/*.search {
+	border-radius: 16px;
+	padding: 8px 40px;
+	margin-top: 0;
+}
+
+.search::after {
+	content: 'teste';
+	width: 50px;
+	height: 50px;
+	background: green;
+}*/
+
+/*.lupa {
+	padding: 2px 2px;
+	border: none;
+
+}*/
+
+
+header .side .search {
+	width: 220px;
+	background: #f5f8fa;
+	border: solid 1px #E6ECF0;
+	height: 34px;
+	padding: 0 30px 0 12px;			
+    border-radius: 16px;
+    color: #667581;
+    font-size: 12px;
+    font-weight: bold;
+    background: url('assets/search.svg') no-repeat 190px center;
+}
+
+header .logo {
+	background: red;
+}
+
+
+header .side .img {
+	justify-content: center;
+}
+
+
+
+
