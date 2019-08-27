@@ -52,6 +52,7 @@ header .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 40px;
 }
 
 ul  {
@@ -155,12 +156,77 @@ header .side  {
 	color: white;
 }
 
+/*MENU CENTER*/
+
+.menu-center {
+	display: flex;
+	justify-content: space-between;
+	background: white;
+	height: 80px;
+
+}
+
+.avatar-left {
+	display: flex;
+	border-radius: 100px;
+	border: solid 6px white;
+}
 
 
 
+header .cont{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	max-width: 1100px;
+	margin: 0px auto;
+}
 
+.button2 {
+	border-radius: 14px;
+	padding: 8px 20px;
+	font-size: 100%;
+	cursor: pointer;
+	background-color: white;
+	color: #6cd7fa;
+	border-color: #6cd7fa;
+	font-weight: bold;
+	margin-right: 15px;
+}
 
+.cont nav ul {
+	font-weight: bold;
+	
 
+}
+
+.menu-right {
+	display: flex;
+	align-items: center;
+}
+
+.menu-nav {
+	padding-right: 350px;
+	text-align:center;
+	
+}
+ 
+
+ .elemento:after {
+ 	content: "1000";
+   width:200px;
+   line-height:100px;
+   height:40px;
+   left: 2200px;
+   
+   position:absolute;
+   top:400px;
+   
+   
+   text-align:center
+
+ }
 
 
 
