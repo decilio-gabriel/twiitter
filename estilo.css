@@ -212,26 +212,77 @@ header .cont{
 	
 }
  
+/*SIDE BAR*/
 
- .elemento:after {
- 	content: "1000";
-   width:200px;
-   line-height:100px;
-   height:40px;
-   left: 2200px;
-   
-   position:absolute;
-   top:400px;
-   
-   
-   text-align:center
+.sideleft {
+	max-width: 1100px;
+	margin: 0 auto;
 
- }
+}
+
+.left {
+	/*border:solid 2px red;*/
+	width: 250px;
+	height: 800px;
+}
+
+.nick {
+	padding: 0px 0px 4px 0px;
+	text-align: left;
+	display: flex;
+	flex-wrap: nowrap;
+
+}
+
+.picture {
+	padding-right: 8px;
+	align-items: center;
+}
 
 
+.color {
+	color: gray;
+}
 
 
+.color2{
+	padding: 0px 0px 4px 0px;
+	text-align: left;
+	display: flex;
+	flex-wrap: nowrap;
+	color: gray;
+}
 
 
+.nick2{
+	padding: 0px 0px 4px 0px;
+	display: flex;
+	align-items: center;
+
+
+}
+
+.followers {
+border: solid  2px gray;
+width: 75px;
+height: 75px;
+display: flex;
+margin-top: 5px;
+border-radius: 8px;
+background: gray;
+}
+
+
+.followers2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+
+.followers3 {
+	color: #6cd7fa;
+}
 
 
