@@ -74,7 +74,7 @@ ul li {
 	padding: 8px 20px;
 	font-size: 100%;
 	cursor: pointer;
-	background-color: #6cd7fa;
+	background-color: #00acee;
 	color: white;
 	border:none;
 
@@ -147,13 +147,15 @@ header .side  {
 /* BANNER*/
 
 .banner {
-	background: #6cd7fa;
+	background: #00acee;
 	height: 360px;
 	font-size: 35px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: white;
+
+
 }
 
 /*MENU CENTER*/
@@ -184,13 +186,13 @@ header .cont{
 }
 
 .button2 {
-	border-radius: 14px;
+	border-radius: 16px;
 	padding: 8px 20px;
 	font-size: 100%;
 	cursor: pointer;
 	background-color: white;
-	color: #6cd7fa;
-	border-color: #6cd7fa;
+	color: #00acee;
+	border-color: #00acee;
 	font-weight: bold;
 	margin-right: 15px;
 }
@@ -221,16 +223,14 @@ header .cont{
 }
 
 .left {
-	/*border:solid 2px red;*/
+	border:solid 2px red; 
 	width: 250px;
 	height: 800px;
 }
 
 .nick {
 	padding: 0px 0px 4px 0px;
-	text-align: left;
-	display: flex;
-	flex-wrap: nowrap;
+	
 
 }
 
@@ -253,7 +253,7 @@ header .cont{
 	color: gray;
 }
 
-
+/* PHOTO AND VIDEOS */
 .nick2{
 	padding: 0px 0px 4px 0px;
 	display: flex;
@@ -262,18 +262,18 @@ header .cont{
 
 }
 
-.followers {
-border: solid  2px gray;
+.photo{
+border: solid  2px #b3b3b3;
 width: 75px;
 height: 75px;
 display: flex;
-margin-top: 5px;
+margin-top: 15px;
 border-radius: 8px;
-background: gray;
+background: #b3b3b3;
 }
 
 
-.followers2 {
+.photo2{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -281,8 +281,50 @@ background: gray;
 }
 
 
-.followers3 {
-	color: #6cd7fa;
+.photo3 {
+	color: #00acee;
 }
+
+/*FOLLOWERS*/
+
+.followers {
+	border: solid  2px #b3b3b3;
+	width: 45px;
+	height: 45px;
+	display: flex;
+	margin-top: 15px;
+	border-radius: 40px;
+	background: #b3b3b3;
+	
+
+}
+
+
+
+.followers2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.followers3 {
+	color: #00acee;
+}
+
+/*FEED*/
+
+.feed {
+	border: solid 2px red;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: -880px;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	padding-right:  200px;
+
+}
+
 
 
