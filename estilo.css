@@ -324,7 +324,7 @@ background: #b3b3b3;
 }
 
 .feed {
-	width: 600px;
+	width: 500px;
 	margin: 0 auto;
 	height: 45px;
 	display: flex;
@@ -334,52 +334,108 @@ background: #b3b3b3;
 	padding-top: 10px;
 	background-color: white;
 	font-weight: bold;
-
-
+	margin-left: 20px;
 }
 
-
-.font {
-	font-size: 20px;
-	color: black;
-
-}
-
-.font1 {
-	font-size: 18px;
-	color: #00acee;
-}
-
-.tweet {
-	
-	margin: 0 auto;
+.divpai {
+	width: 500px;
 	background: white;
-}
-
-.pic {
-	border-radius: 40px;
-
-	}
-
-
-.feed-central {
 	display: flex;
 	margin-top: 3px;
-	background: white;
-	max-width: 500px;
+	height: 100%;
+	
+	
+	
 }
 
-.feed2 {
-	background: white;
-	width: 80px;
-	height: 25px;
+.divpai2 {
+	
 
 }
+
+.divpai3 {
+	margin-left: 20px;
+}
+
+
+
+
+.title {
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+	padding-left: 5px;
+
+
+}
+
+.font {
+	font-weight: bold; 
+	font-size: 16px;
+
+
+}
+
+.font2 {
+	color: gray;
+	font-size: 14px;
+	padding-left: 5px;
+
+}
+
+.title2 {
+	padding-top: 5px;
+	font-size: 15px;
+	padding-left: 5px;	
+
+}
+
+.title3 {
+	display: flex; 
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	font-size: 12px;
+	align-items: center;
+
+}
+
+.subtitle3 {
+	padding-right:  45px;
+	padding-left: 5px;
+
+
+}
+
+.avatarfeed {
+	border-radius: 50px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+
+
+/*SIDE BAR DIREITA*/
+
+.sidebarinicio {
+	display: flex;
+	align-items: center;
+
+}
+
+.titlesidebarinicio {
+	
+	padding-left: 5px;
+	color: #00acee; 
+	font-size: 12px;
+}
+
+/*refres view all blue*/
 
 .sidebar3 {
-	
-	width: 350px;
-	height: 300px;
+	width: 300px;
+	height: 280px;
 	background-color: white;
 	margin-left: 20px;
 	margin-top: 3px;
@@ -387,78 +443,61 @@ background: #b3b3b3;
 	padding-top: 10px;
 }
 
-/*SIDE BAR DIREITA*/
+.av3 {
+	display: flex;
+	padding-top: 2px;
 
-.titleside {
-	font-size: 10px;
-	color: #00acee;
 }
 
+.nome.follow {
+	padding-top: 50px;
+}
 
-/* FEED-DOWN*/
-
-.down {
-	margin-top: 3px;
+.button3  {
+	border-radius: 16px;
+	padding: 4px 20px;
+	font-size: 100%;
+	cursor: pointer;
 	background-color: white;
-	width: 500px;
-	height: 110px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-
-	
-}
-
-.title2 {
-	padding-top: 7px;
-	font-size: 13px;
-	display: flex;
-	justify-content: flex-end;
-}
-
-.subtitle {
-	display: flex;
-	margin-top: 10px;
-}
-.avatardiv {
-		width: 50px;
-		height: 50px;
-		border-radius: 40px;
-		margin-top: 10px;
-		margin-bottom: 20px;
-		margin-left: 10px;
-		margin-right: 10px;
-
-}
-
-}
-
-.fonttitle {
+	color: #00acee;
+	border-color: #00acee;
 	font-weight: bold;
-	padding-right: 5px;
-	font-variant: all;
+	margin-right: 15px;
+
 }
 
-.fonttitle2 {
-	font-size: 14px;
-	color: #b3b3b3;
-	padding-right: 5px;
-	
-	}
-
-.caract {
+.id {
 	display: flex;
-	padding-top: 20px;
-	
-	font-variant: all;
-	font-size: 12px;
-	font-weight: bold;
-	color: gray;
+	align-items: center;
+
+
 }
-	
-.number {
-	padding-right: 35px;
+
+.id4 {
+	padding-top: 6px;
+	padding-left: 5px;
+
+
+}
+
+.button33 {
+	padding-top: 10px;
 	padding-left: 5px;
 }
 
+.bb-profile {
+border-bottom: solid 1px rgba(128, 128, 128, 0.377);
+padding-bottom: 15px;
 
+}
+
+.name4 {
+	padding-right: 7px;
+	font-size: 14px
+}
+
+.name5{
+	color: gray;
+	font-size: 12px;
+
+}
