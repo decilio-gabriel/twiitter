@@ -1,7 +1,7 @@
 /* SETTINGS */
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -12,34 +12,21 @@ body {
 
 .container {
   max-width: 1100px;
-	margin: 0px auto;
+  margin: 0 auto;
 }
 
-input {
-  outline: 0;
-}
-
+input,
 button {
   outline: 0;
 }
 
-a {
-  text-decoration: none;
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-a:hover {
-	opacity: 1;
-}
-
 /* HEADER */
 header {
-  background-color: white;
+  background-color: #fff;
   width: 100%;
   margin-top: 0;
   left: 0;
-  padding: -1px 10px;
+  padding: 1px 10px;
   font-size: 100%;
   box-shadow: 5px 1px 2px #888;
 }
@@ -48,29 +35,44 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  height: 50px;
 }
 
-header .container .menu{
+header .container .menu {
   display: flex;
-	margin: 10px;
 }
 
-header .container .menu li {
+header .container .menu .menu-item {
   display: flex;
-  padding: 10px;
+  margin: 0 15px;
   text-decoration: none;
 }
 
-header .container .menu li a {
+header .container .menu .menu-item .menu-link {
   display: flex;
-  color: gray;
+  color:#888;
   font-size: 15px;
-	align-items: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 15px 0;
+  cursor: pointer;
 }
 
-header .container .bird {
-  margin-right: 5px;
+header .container .menu .menu-item:hover .menu-link {
+  color: #00acee;
+}
+
+header .container .menu .menu-item .menu-link.active {
+  color: #00acee;
+
+}
+
+header .container .menu .menu-item .menu-link .picture{
+  margin-right: 8px;
+}
+
+
+header .container .logo {
   width: 15;
   height: 15;
 }
@@ -99,9 +101,8 @@ header .container .side-search .avatar {
   margin-left: 10px;
   width: 35px;
   height: 35px;
-  
 }
- 
+
 header .container .side-search .button {
   border-radius: 14px;
   padding: 8px 20px;
@@ -110,6 +111,7 @@ header .container .side-search .button {
   background-color: #00acee;
   color: white;
   border: none;
+  font-weight: bold;
 }
 /*----------------------------------------------------------------------------------*/
 /* BANNER*/
@@ -186,10 +188,7 @@ header .cont {
   padding: 0px 0px 4px 0px;
 }
 
-.picture {
-  padding-right: 8px;
-  align-items: center;
-}
+
 
 .color {
   color: gray;
