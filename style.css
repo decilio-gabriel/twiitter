@@ -109,14 +109,11 @@ header .container .side-search .button {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
 header .container .side-search .button:hover {
   background-color: #00abeeb4;
   color: rgba(255, 255, 255, 0.808);
 }
 
->>>>>>> nav
 /* BANNER*/
 
 .banner {
@@ -127,13 +124,13 @@ header .container .side-search .button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
   box-shadow: 0 1px 3px 1px rgb(0, 0, 0);
-=======
   color: white;
   box-shadow: 0px -1px 20px -10px rgb(119, 118, 118);
   box-direction: top;
->>>>>>> nav
+  color: white;
+  box-shadow: 0px -1px 20px -10px rgb(119, 118, 118);
+  box-direction: top;
 }
 
 /* NAV */
@@ -156,10 +153,14 @@ nav .center .settings-all {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .cont {
 =======
 nav .center .settings-all .item {
 >>>>>>> nav
+=======
+nav .center .settings-all .item {
+>>>>>>> 3c2b85305b5074d6dbb4b0eb42cce7a4bda67312
   display: flex;
   justify-content: space-between;
   align-items: center;
