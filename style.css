@@ -115,23 +115,21 @@ header .container .side-search .button:hover {
 }
 
 /* BANNER*/
-
 .banner {
   align-items: center;
-  box-shadow: 0 1px 3px 1px rgb(0, 0, 0);
   background: #00acee;
   display: flex;
   height: 360px;
   justify-content: center;
+  box-shadow: 0 1px 3px 1px rgb(0, 0, 0);
 }
 
 .banner .banner-title {
-color: #fff;
-font-size: 35px;
+  color: #fff;
+  font-size: 35px;
 }
 
 /* NAV */
-
 nav .center {
   background-color: #fff;
   display: flex;
@@ -149,15 +147,7 @@ nav .center .settings-all {
   margin-left: 269px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.cont {
-=======
 nav .center .settings-all .item {
->>>>>>> nav
-=======
-nav .center .settings-all .item {
->>>>>>> 3c2b85305b5074d6dbb4b0eb42cce7a4bda67312
   display: flex;
   justify-content: space-between;
   align-items: center;
