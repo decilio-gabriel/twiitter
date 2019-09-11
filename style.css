@@ -115,23 +115,21 @@ header .container .side-search .button:hover {
 }
 
 /* BANNER*/
-
 .banner {
-  background: #00acee;
-  color: white;
-  height: 360px;
-  font-size: 35px;
-  display: flex;
   align-items: center;
+  background: #00acee;
+  display: flex;
+  height: 360px;
   justify-content: center;
   box-shadow: 0 1px 3px 1px rgb(0, 0, 0);
-  color: white;
-  box-shadow: 0px -1px 20px -10px rgb(119, 118, 118);
-  box-direction: top;
+}
+
+.banner .banner-title {
+  color: #fff;
+  font-size: 35px;
 }
 
 /* NAV */
-
 nav .center {
   background-color: #fff;
   display: flex;
