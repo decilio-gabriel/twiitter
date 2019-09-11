@@ -1,4 +1,4 @@
-/* SETTINGS */
+/* -------------------------- SETTINGS ----------------------------- */
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@ button {
   outline: 0;
 }
 
-/* HEADER */
+/* ------------------------------ HEADER ---------------------------- */
 header {
   background-color: #fff;
   width: 100%;
@@ -113,7 +113,7 @@ header .container .side-search .button:hover {
   color: rgba(255, 255, 255, 0.808);
 }
 
-/* BANNER*/
+/* --------------------------- BANNER -------------------------------- */
 .banner {
   align-items: center;
   background: #00acee;
@@ -129,7 +129,7 @@ header .container .side-search .button:hover {
   font-size: 35px;
 }
 
-/* NAV */
+/* ------------------------------ NAV -------------------------------- */
 nav .center {
   background-color: #fff;
   display: flex;
@@ -226,7 +226,7 @@ nav .center .settings-all .menu-settings .follow-btn:hover {
   border-color: #00abeeb4;
 }
 
-/* PROFILE */
+/* ------------------------------ PROFILE ----------------------------- */
 
 .center {
   display: flex;
@@ -268,7 +268,12 @@ aside .profile .picture {
   padding-right: 7px;
 }
 
-/*  PROFILE - FOLLOWERS THAT YOU KNOW */
+/* ---------------------  PROFILE - FOLLOWERS THAT YOU KNOW ---------------------- */
+aside .profile .info2 {
+  align-items: center;
+  display: flex;
+  margin-bottom: 4px;
+}
 
 aside .profile .title-follow.title-images {
   color: #00acee;
@@ -279,54 +284,50 @@ aside .profile .title-follow.title-images:hover {
   color: #00abeeb4;
 }
 
-.followers {
+aside .profile .config-follow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+aside .profile .config-follow .followers {
   border-radius: 40px;
-  background: #b3b3b3;
-  border: solid 2px #b3b3b3;
+  background: #d1d1d1;
+  border: solid 2px #d1d1d1;
   display: flex;
   height: 45px;
   margin-top: 15px;
   width: 45px;
 }
 
-.followers2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+aside .profile .config-follow .followers:hover{
+  background: #d1d1d1af;
+  border: #d1d1d1af;
 }
 
-.info2 {
-  align-items: center;
-  display: flex;
-  margin-bottom: 4px;
-}
-
-
-/* PHOTO AND VIDEOS */
-
-
-.photo {
-  border: solid 2px #b3b3b3;
-  width: 75px;
-  height: 75px;
-  display: flex;
-  margin-top: 15px;
-  border-radius: 8px;
-  background: #b3b3b3;
-}
-
-.photo2 {
+/* -------------------------- PROFILE - PHOTO AND VIDEOS ----------------------- */
+aside .profile .config-photo {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.photo3 {
-  color: #00acee;
+aside .profile .config-photo .photo {
+  border-radius: 8px;
+  background: #d1d1d1;
+  border: solid 2px #d1d1d1;
+  display: flex;
+  height: 75px;
+  margin-top: 15px;
+  width: 75px;
 }
 
+aside .profile .config-photo .photo:hover{
+  background: #d1d1d1af;
+  border: #d1d1d1af;
+}
 
-/*FEED*/
+/* ---------------------------------- FEED ----------------------------------- */
 
 .feed {
   width: 500px;
