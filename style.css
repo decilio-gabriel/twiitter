@@ -232,65 +232,68 @@ nav .center .settings-all .menu-settings .follow-btn:hover {
   display: flex;
 }
 
-aside .profile {
+aside.profile {
   margin-top: 0;
   width: 250px;
 }
 
-aside .profile .avatar{
+aside.profile .avatar{
   border-radius: 100px;
   border: solid 6px white;
   display: flex;
   margin-top: -130px;
 }
 
-aside .profile .title {
+aside.profile .title {
   margin-top: 20px;
 }
 
-aside .profile .color-info {
+aside.profile .color-sidebar {
   color:#657786;
-  cursor: pointer;
   text-decoration: none;
 }
 
-aside .profile .color-info:hover {
+aside.profile .sidebar {
+  margin-top: 20px;
+}
+
+aside.profile .color-sidebar:hover {
   color: #667581d7;
 }
 
- aside .profile .info {
+ aside.profile .title-side {
   color: gray;
   margin-bottom: 4px;
 }
 
-aside .profile .picture {
+aside.profile .picture {
   cursor: pointer;
   padding-right: 7px;
 }
 
 /* ---------------------  PROFILE - FOLLOWERS THAT YOU KNOW ---------------------- */
-aside .profile .info2 {
+aside.profile .tt-side-follow {
   align-items: center;
   display: flex;
   margin-bottom: 4px;
 }
 
-aside .profile .title-follow.title-images {
+aside.profile .title-follow.title-images {
   color: #00acee;
   text-decoration: none;
 }
 
-aside .profile .title-follow.title-images:hover {
+aside.profile .title-follow.title-images:hover {
   color: #00abeeb4;
 }
 
-aside .profile .config-follow {
+aside.profile .followers {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-aside .profile .config-follow .followers {
+aside.profile .followers .follow {
   border-radius: 40px;
   background: #d1d1d1;
   border: solid 2px #d1d1d1;
@@ -300,19 +303,19 @@ aside .profile .config-follow .followers {
   width: 45px;
 }
 
-aside .profile .config-follow .followers:hover{
+aside.profile .sidebar .followers .follow:hover{
   background: #d1d1d1af;
   border: #d1d1d1af;
 }
 
 /* -------------------------- PROFILE - PHOTO AND VIDEOS ----------------------- */
-aside .profile .config-photo {
+aside.profile .photos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-aside .profile .config-photo .photo {
+aside.profile .photos .photo {
   border-radius: 8px;
   background: #d1d1d1;
   border: solid 2px #d1d1d1;
@@ -322,7 +325,7 @@ aside .profile .config-photo .photo {
   width: 75px;
 }
 
-aside .profile .config-photo .photo:hover{
+aside.profile .sidebar .photos .photo:hover{
   background: #d1d1d1af;
   border: #d1d1d1af;
 }
