@@ -365,6 +365,11 @@ aside.profile .sidebar .photos .photo:hover {
 }
 
 /* ----------------------------------- FEED ------------------------------------ */
+.line {
+  width: 500px;
+  padding-left: 20px;
+}
+
 .time-line-feed {
   background: rgb(255, 255, 255);
   height: 115px;
@@ -441,77 +446,92 @@ aside.profile .sidebar .photos .photo:hover {
   text-decoration: none;
 }
 
-/*SIDE BAR DIREITA*/
-.sidebarinicio {
+/* -------------------------------------- WIDGETS --------------------------------- */
+.widgets {
+  width: 300px;
+  height: 280px;
+  background-color: #fff;
+  margin-left: 40px;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.widgets .title {
   display: flex;
   align-items: center;
 }
 
-.titlesidebarinicio {
+.widgets .title .options {
   padding-left: 5px;
   color: #00acee;
   font-size: 12px;
 }
 
-/*refres view all blue*/
-
-.sidebar3 {
-  width: 300px;
-  height: 280px;
-  background-color: white;
-  margin-left: 20px;
-  margin-top: 3px;
-  padding-left: 15px;
-  padding-top: 10px;
+.widgets .title .options:hover {
+  color: #00abeeb4;
+  cursor: pointer;
 }
 
-.av3 {
+.widgets .widgets-user {
   display: flex;
   padding-top: 2px;
 }
 
-.nome.follow {
-  padding-top: 50px;
+.widgets .widgets-user.user {
+  border-bottom: solid 1px rgba(128, 128, 128, 0.377);
+  padding-bottom: 15px;
 }
 
-.button3 {
+.widgets .widgets-followers {
+  padding-top: 6px;
+  padding-left: 5px;
+}
+
+.widgets .widgets-followers .widgets-btn {
   border-radius: 16px;
   padding: 4px 20px;
   font-size: 100%;
   cursor: pointer;
-  background-color: white;
+  background-color: #fff;
   color: #00acee;
   border-color: #00acee;
   font-weight: bold;
   margin-right: 15px;
 }
 
-.id {
+.widgets .widgets-btn:hover {
+  color: #00abeeb4;
+  border-color: #00abeeb4;
+}
+
+.widgets .widgets-follow {
   display: flex;
   align-items: center;
 }
 
-.id4 {
-  padding-top: 6px;
-  padding-left: 5px;
-}
-
-.button33 {
+.widgets .widgets-followers .followers-btn {
   padding-top: 10px;
   padding-left: 5px;
 }
 
-.bb-profile {
-  border-bottom: solid 1px rgba(128, 128, 128, 0.377);
-  padding-bottom: 15px;
-}
-
-.name4 {
+.widgets .widgets-followers .widgets-follow .user-name {
   padding-right: 7px;
   font-size: 14px;
 }
 
-.name5 {
-  color: gray;
+.widgets .widgets-followers .widgets-follow .users-name {
+  color: rgb(128, 128, 128);
   font-size: 12px;
+  cursor: pointer;
+}
+
+.widgets .widgets-followers .widgets-follow .users-name:hover {
+  color: rgba(128, 128, 128, 0.623);
+}
+
+.widgets img {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
 }
